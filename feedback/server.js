@@ -10,7 +10,7 @@ const port = 3000;
 const pool = mysql.createPool({
     connectionLimit: 10, // Set the maximum number of connections
     user: 'postgres', // Replace with your MySQL user
-    host: 'feedback-instance.c7mc40cu0d20.ap-south-1.rds.amazonaws.com',
+    host: host_url,
     database: 'feedbackdb',
     password: 'postgres', // Replace with your MySQL password
     port: 3306, // Default MySQL port
